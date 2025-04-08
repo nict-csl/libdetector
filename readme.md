@@ -45,7 +45,7 @@ zipp==3.17.0 <br>
 
 ## Dockerイメージを使用する場合のインストール
 - docker_imageフォルダのnict_sbom_tool_vXXX.tar.gzを任意のフォルダにダウンロード
-- tar -xzf　nict_sbom_tool_vXXX.tar.gz
+- tar -xvf　nict_sbom_tool_vXXX.tar.xz
 - docker load < nict_sbom_tool_vXXX.tar
 - docker run -it nict_sbom_tool:verXXX
 - cd /root/root_sbom_tool　
@@ -56,7 +56,7 @@ zipp==3.17.0 <br>
 ## SAMPLEデータを使用する
 ### インストール済のSAMPLEデータを使用した実行確認が可能です
 1.  cd root_sbom_tool/venv
-2.  venv_nict_sbom_tool.tar.gz
+2.  tar -xvf venv_nict_sbom_tool.tar.xz
 3.  source venv_nict_sbom_tool/bin/activate
 4.  cd ../sbom_tool/
 5.  ./quick_run_all.sh
