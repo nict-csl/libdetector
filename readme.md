@@ -167,7 +167,7 @@ Example: Creating a data folder under the libdetector directory
    select_tag=1                     #Type of model data tags: currently fixed at 1
    dir_path="../../work/test"       #Folder names are fixed 
 
-   #The minimum word data size can be changed to between 2 and 5 bytes for learning.
+   #For comparison, the minimum word length is changed within the 2–5 byte range, consistent with model generation.
    for min_word_len in 2 3 4 5; do
      python3 doc2vec_lerning_dmpv.py "$min_word_len" "$select_tag" "$dir_path" 
    done
