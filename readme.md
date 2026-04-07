@@ -33,11 +33,11 @@ VERSION: "20.04.5 LTS (Focal Fossa)"
    numpy==1.24.4 \
    packaging==23.2 \
    pandas==2.0.3 \
-   pillow==10.2.0 \
+   pillow==10.3.0 \
    pyparsing==3.1.1 \
    python-dateutil==2.8.2 \
    pytz==2023.3.post1 \
-   scikit-learn==1.3.2 \
+   scikit-learn==1.5.0 \
    scipy==1.10.1 \
    six==1.16.0 \
    smart-open==6.4.0 \
